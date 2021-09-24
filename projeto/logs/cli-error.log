@@ -1,0 +1,495 @@
+2017-11-17 14:21:07 Error: [Cake\Console\Exception\MissingShellException] Shell class for "B" could not be found. in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php on line 327
+Exception Attributes: array (
+  'class' => 'B',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('B')
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-11-17 14:21:47 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-11-17 14:30:04 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-11-17 14:36:45 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-11-17 14:38:59 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-01-15 15:17:46 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(209): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'users_resp', 'UsersResp')
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('UsersResp')
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(257): Bake\Shell\Task\ModelTask->main('UsersResp')
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('UsersResp', 0)
+#16 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(258): Cake\Collection\Collection->each(Object(Closure))
+#17 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all('users_resp')
+#18 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2019-01-15 15:18:14 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(209): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'users_resp', 'UsersResp')
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('UsersResp')
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(257): Bake\Shell\Task\ModelTask->main('UsersResp')
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('UsersResp', 0)
+#16 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(258): Cake\Collection\Collection->each(Object(Closure))
+#17 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all('users_resp')
+#18 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2019-01-15 15:18:44 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\ORM\Table.php(530): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\ORM\Table.php(652): Cake\ORM\Table->getSchema()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(292): Cake\ORM\Table->getPrimaryKey()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(148): Bake\Shell\Task\TemplateTask->_loadController()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\TemplateTask->main('users_resp')
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-01-15 15:22:06 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\ORM\Table.php(530): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\ORM\Table.php(652): Cake\ORM\Table->getSchema()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(292): Cake\ORM\Table->getPrimaryKey()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(148): Bake\Shell\Task\TemplateTask->_loadController()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\TemplateTask->main('users_resp')
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-01-15 15:28:49 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(209): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'users_resp', 'UsersResp')
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('UsersResp')
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(257): Bake\Shell\Task\ModelTask->main('UsersResp')
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('UsersResp', 0)
+#16 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(258): Cake\Collection\Collection->each(Object(Closure))
+#17 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all('users_resp')
+#18 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2019-01-15 15:33:18 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(209): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'users_resp', 'UsersResp')
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('UsersResp')
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\ModelTask->main('users_resp')
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#16 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2019-07-13 14:24:05 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-07-13 14:27:06 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "clientesFaturas" was not found. in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php on line 196
+Exception Attributes: array (
+  'name' => 'clientesFaturas',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1006): Cake\Datasource\ConnectionManager::get('clientesFaturas')
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2019-07-13 14:28:44 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "clientesFaturasturas" was not found. in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php on line 196
+Exception Attributes: array (
+  'name' => 'clientesFaturasturas',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1006): Cake\Datasource\ConnectionManager::get('clientesFaturas...')
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2019-07-13 14:29:32 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "clientesFaturasturas" was not found. in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php on line 196
+Exception Attributes: array (
+  'name' => 'clientesFaturasturas',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(192): Cake\Datasource\ConnectionManager::get('clientesFaturas...')
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableObject('ComposicaoPpu', 'composicao_ppu')
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('ComposicaoPpu')
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(257): Bake\Shell\Task\ModelTask->main('ComposicaoPpu')
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('ComposicaoPpu', 0)
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(258): Cake\Collection\Collection->each(Object(Closure))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all('Composicao_ppu')
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2019-07-13 14:29:53 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(209): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'composicao_ppu', 'ComposicaoPpu')
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('ComposicaoPpu')
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(257): Bake\Shell\Task\ModelTask->main('ComposicaoPpu')
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('ComposicaoPpu', 0)
+#16 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(258): Cake\Collection\Collection->each(Object(Closure))
+#17 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all('Composicao_ppu')
+#18 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2019-07-13 14:32:31 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(209): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'composicao_ppu', 'ComposicaoPpu')
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('ComposicaoPpu')
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(257): Bake\Shell\Task\ModelTask->main('ComposicaoPpu')
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('ComposicaoPpu', 0)
+#16 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(258): Cake\Collection\Collection->each(Object(Closure))
+#17 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all('Composicao_ppu')
+#18 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2019-07-13 14:33:21 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "clientesfaturas" was not found. in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php on line 196
+Exception Attributes: array (
+  'name' => 'clientesfaturas',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1006): Cake\Datasource\ConnectionManager::get('clientesfaturas')
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2019-07-13 14:33:42 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "clientesFaturas" was not found. in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php on line 196
+Exception Attributes: array (
+  'name' => 'clientesFaturas',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1006): Cake\Datasource\ConnectionManager::get('clientesFaturas')
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2019-07-13 14:34:07 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Bak" could not be found. in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php on line 327
+Exception Attributes: array (
+  'class' => 'Bak',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('Bak')
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2019-07-13 14:35:37 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "clientesFaturas" was not found. in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php on line 196
+Exception Attributes: array (
+  'name' => 'clientesFaturas',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1006): Cake\Datasource\ConnectionManager::get('clientesFaturas')
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2019-07-13 14:38:48 Error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "clientesFaturas" was not found. in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php on line 196
+Exception Attributes: array (
+  'name' => 'clientesFaturas',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1006): Cake\Datasource\ConnectionManager::get('clientesFaturas')
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2019-07-13 14:40:33 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php on line 47
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(365): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Database\Connection.php(384): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1014): Cake\Database\Connection->schemaCollection()
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(966): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(981): Bake\Shell\Task\ModelTask->listAll()
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\bake\src\Shell\BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\Shell.php(458): Bake\Shell\BakeShell->all()
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\xampp\htdocs\qtx-site\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
